@@ -66,10 +66,10 @@ footer {
 }
 
 .row {
-  img {
+  .profile-image {
     width: 100%;
   }
-  i {
+  .fa-pen {
     bottom: 10px;
     left: 20px;
     padding: 6px;
@@ -85,5 +85,11 @@ footer {
   &:hover {
     background-color: white;
     color: black;
+  }
+}
+
+.row {
+  a {
+    text-decoration: none;
   }
 }

@@ -14141,10 +14141,10 @@ footer .icons {
   color: white;
 }
 
-.row img {
+.row .profile-image {
   width: 100%;
 }
-.row i {
+.row .fa-pen {
   bottom: 10px;
   left: 20px;
   padding: 6px;
@@ -14158,4 +14158,8 @@ footer .icons {
 .btn-outline-secondary:hover {
   background-color: white;
   color: black;
+}
+
+.row a {
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
