@@ -1,1 +1,10 @@
 @import "./partials/_bootstrap-overrides";
+
+.navbar-brand {
+  img {
+    width: 100px;
+  }
+}
+.user-img {
+  width: 50px;
+}

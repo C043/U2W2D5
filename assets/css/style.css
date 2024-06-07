@@ -11961,4 +11961,11 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.navbar-brand img {
+  width: 100px;
+}
+
+.user-img {
+  width: 50px;
 }/*# sourceMappingURL=style.css.map */
