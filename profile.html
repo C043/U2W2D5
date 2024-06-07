@@ -19,11 +19,12 @@
     <main>
       <div class="con">
         <h1 class="mb-4 pb-2 border-bottom">Edit Profile</h1>
-        <div class="row border-bottom pb-4">
-          <div class="col-lg-3">
+        <div class="row border-bottom pb-4 mb-5 align-items-start justify-content-center">
+          <div class="col-8 col-lg-3 position-relative mb-4">
             <img src="Netflix-assets/assets/avatar.png" alt="profile-image" />
+            <i class="fa-solid fa-pen position-absolute"></i>
           </div>
-          <div class="col-lg-8">
+          <div class="col-12 col-lg-8">
             <form action="">
               <input type="text" placeholder="Strive Student" class="name-input p-2 mb-4 bg-secondary" />
               <label for="lang" class="mb-2 text-secondary h5">Language:</label>
@@ -37,7 +38,7 @@
                   English
                 </button>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item active" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">English</a></li>
                   <li><a class="dropdown-item" href="#">Italian</a></li>
                   <li><a class="dropdown-item" href="#">German</a></li>
                   <li><a class="dropdown-item" href="#">Spanish</a></li>
@@ -70,6 +71,11 @@
             </form>
           </div>
         </div>
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mb-5">
+          <button type="button" class="btn btn-outline-secondary px-4">SAVE</button>
+          <button type="button" class="btn btn-outline-secondary px-4">CANCEL</button>
+          <button type="button" class="btn btn-outline-secondary px-4">DELETE PROFILE</button>
+        </div>
       </div>
     </main>
     <script
@@ -78,5 +84,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://kit.fontawesome.com/b9d3fe47c6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>

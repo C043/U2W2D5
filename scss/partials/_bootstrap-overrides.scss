@@ -17,6 +17,22 @@ $container-max-widths: (
 );
 
 $gray-900: #131313;
+$gray-600: #6c757d;
+
+$form-check-input-width: 2em;
+$form-check-min-height: 2em;
+
+$form-check-input-bg: null;
+$form-check-input-border: null;
+$form-check-input-border-radius: 0;
+
+$form-check-input-focus-border: $gray-600;
+$form-check-input-focus-box-shadow: 0;
+
+$form-check-input-checked-color: black;
+$form-check-input-checked-bg-color: $gray-900;
+$form-check-input-checked-border-color: $gray-600;
+$form-check-input-checked-bg-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path fill='none' stroke='#{$gray-600}' stroke-linecap='' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/></svg>");
 
 @import "../../bootstrap/variables";
 @import "../../bootstrap/variables-dark";
