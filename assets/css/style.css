@@ -11972,4 +11972,12 @@ textarea.form-control-lg {
 
 .row img {
   width: 100%;
+  transition: all 300ms;
+}
+.row img:hover {
+  scale: 1.5;
+}
+
+.icons {
+  font-size: 20px;
 }/*# sourceMappingURL=style.css.map */
