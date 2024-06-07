@@ -14108,4 +14108,21 @@ nav .navbar-brand img {
 }
 footer .icons {
   font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .con {
+    max-width: 50vw;
+    margin-inline: auto;
+  }
+}
+.con .name-input {
+  width: 100%;
+  border: none;
+}
+.con .name-input::-moz-placeholder {
+  color: white;
+}
+.con .name-input::placeholder {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
