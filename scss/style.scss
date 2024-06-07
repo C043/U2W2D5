@@ -1,5 +1,8 @@
 @import "./partials/_bootstrap-overrides";
 
+:root {
+  overflow-x: hidden;
+}
 nav {
   color: rgba(0, 0, 0, 0);
   .navbar-brand {
@@ -20,6 +23,16 @@ nav {
     }
   }
 }
-.icons {
-  font-size: 20px;
+footer {
+  @media screen and (min-width: 1024px) {
+    width: 80vw;
+    margin-inline: auto;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 50vw;
+  }
+  .icons {
+    font-size: 30px;
+  }
 }

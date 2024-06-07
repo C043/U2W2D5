@@ -14071,6 +14071,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+:root {
+  overflow-x: hidden;
+}
+
 nav {
   color: rgba(0, 0, 0, 0);
 }
@@ -14090,6 +14094,17 @@ nav .navbar-brand img {
   scale: 1.5;
 }
 
-.icons {
-  font-size: 20px;
+@media screen and (min-width: 1024px) {
+  footer {
+    width: 80vw;
+    margin-inline: auto;
+  }
+}
+@media screen and (min-width: 1440px) {
+  footer {
+    width: 50vw;
+  }
+}
+footer .icons {
+  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */
