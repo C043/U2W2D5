@@ -1,8 +1,11 @@
 @import "./partials/_bootstrap-overrides";
 
-.navbar-brand {
-  img {
-    width: 100px;
+nav {
+  color: rgba(0, 0, 0, 0);
+  .navbar-brand {
+    img {
+      width: 100px;
+    }
   }
 }
 .user-img {
