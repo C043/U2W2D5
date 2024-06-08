@@ -1,13 +1,19 @@
 @import "../../bootstrap/functions";
 
 /* override delle variabili */
+
+/* override del border-radius dei bottoni */
 $btn-border-radius: 0;
 $btn-border-radius-sm: 0;
 $btn-border-radius-lg: 0;
 
+/* $spacer non cambia, ma serve per modificare la mappa dei degli spacers */
 $spacer: 1rem;
+
+/* aggiungo il colore invisibile per le classi colore */
 $invisible: rgba(0, 0, 0, 0);
 
+/* modificato i container max-widths */
 $container-max-widths: (
   sm: 540px,
   md: 720px,
@@ -16,18 +22,19 @@ $container-max-widths: (
   xxl: 1800px,
 );
 
+/* modificato due grigi per il tema scuro */
 $gray-900: #131313;
 $gray-600: #6c757d;
 
-$light: #afafaf;
-
 $body-tertiary-bg-dark: $gray-900;
 
+/* modificato la variabile light */
+$light: #afafaf;
+
+/* modifica degli input check */
 $form-check-input-width: 2em;
 $form-check-min-height: 2em;
 
-$form-check-input-bg: null;
-$form-check-input-border: null;
 $form-check-input-border-radius: 0;
 
 $form-check-input-focus-border: $gray-600;
@@ -42,6 +49,8 @@ $form-check-input-checked-bg-image: url("data:image/svg+xml,<svg xmlns='http://w
 @import "../../bootstrap/variables-dark";
 
 /* override delle mappe */
+
+/* aggiunta di spacers per classi margine aggiuntive */
 $more-spacers: (
   6: $spacer * 4,
   7: $spacer * 5,
@@ -55,6 +64,7 @@ $spacers: map-merge(
   $map2: $more-spacers,
 );
 
+/* aggiunta del colore invisibile */
 $more-colors: (
   "invisible": $invisible,
 );
